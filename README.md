@@ -6,3 +6,5 @@ Contributors:
 - Ronald Hualpa (Defining deployment engine, testing & setting up work environment)
 - Andrea Castro (Scrapping code & DB connection)
 - Giancarlo Sanchez (Java code & mongoDB library interaction)
+
+App. Website: https://demo-final-grupo-3.herokuapp.com/
