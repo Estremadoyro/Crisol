@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+	
+html{
+	font-family: Asap, sans-serif ; 
+
+}
+.navbar-custom {
+    background-color: #005b96  ; 
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white ; 
+     
+;}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #011f4b ;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #011f4b;
+}
+.navbar-toggler-icon {
+  
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+
+header{
+  background-color: #93b5b3; 
+}
+
+.album{
+  background-color: #f2f6f5;
+}
+.jumbotron{
+    background-color: #c8dad3 ; 
+}
+
+#logo {
+  height: 30% ; 
+  width: 30% ; 
+  
+}
+
+main{
+  background-color: #f2f6f5;
+  height: 100vh ; 
+}
+
+#eliminar{
+  background-color: red;
+}
+
+form{
+  vertical-align:middle; 
+}
+.btn-group-wrap {
+  text-align: center;
+}
+
+div.btn-group {
+  margin: 0 auto; 
+  text-align: center;
+  width: inherit;
+  display: inline-block;
+}
+
+#crear{
+  background-color:  #93b5b3 ; 
+}
+
+#validationCustom01{
+    cursor: not-allowed ; 
+}
+
+label{
+    font-size: 1.3em ; 
+    font-weight: bold ; 
+}
+
+.btn-group{
+    cursor: not-allowed ;
+}
+
